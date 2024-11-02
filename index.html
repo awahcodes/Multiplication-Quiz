@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication Quiz</title>
+    <link rel="stylesheet" href="stylereal.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Multiplication Questions</h1>
+    </header>
+
+    <main>
+      <section class="settings">
+        <h2>Select Range</h2>
+        <select name="range" id="range">
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button class="question-btn">Get Question</button>
+      </section>
+
+      <section class="quiz">
+        <p class="question">Click "Get Question" to start</p>
+
+        <div class="answer-section">
+          <label for="answer" class="answer-label">Your Answer:</label>
+          <input
+            id="answer"
+            class="answer-input"
+            type="text"
+            placeholder="Type answer here"
+          />
+        </div>
+
+        <div class="controls">
+          <button class="control-btn reset">Reset</button>
+          <button class="control-btn next">Next</button>
+          <button class="control-btn submit">Submit</button>
+        </div>
+
+        <!-- Feedback section -->
+        <p class="feedback"></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

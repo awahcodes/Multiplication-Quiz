@@ -1,0 +1,102 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Title */
+.title {
+  /* color: #4a90e2; */
+  color: rgb(201, 18, 161);
+  text-align: center;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+/* Settings Section */
+.settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.settings h2 {
+  margin: 0;
+}
+
+/* Quiz Section */
+.quiz {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#range {
+  padding: 5px;
+}
+.question {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.question-btn {
+  background-color: violet;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 2px;
+}
+.answer-section {
+  margin: 1rem 0;
+}
+
+.answer-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.control-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit {
+  /* background-color: #4caf50; */
+  background-color: yellow;
+  /* color: white; */
+  color: black;
+}
+
+.reset,
+.next {
+  /* background-color: #2196f3; */
+  background-color: blueviolet;
+  color: white;
+}
+
+/* Feedback Styles */
+.feedback {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
