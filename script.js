@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to generate a new multiplication question based on selected range
   function generateQuestion() {
     const selectedNumber = parseInt(rangeSelect.value); // Get the selected number
-    const randomMultiplier = Math.floor(Math.random() * 13); // Random number between 0 and 12
+    const randomMultiplier = Math.floor(Math.random() * 11); // Random number between 0 and 10
 
     correctAnswer = selectedNumber * randomMultiplier;
     questionElement.textContent = `What is ${selectedNumber} x ${randomMultiplier}?`;
